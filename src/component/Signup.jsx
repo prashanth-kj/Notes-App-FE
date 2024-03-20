@@ -5,6 +5,7 @@ import AxiosService from '../common/Apiservice';
 import {toast} from 'react-toastify';
 import {useNavigate } from 'react-router-dom';
 import { Spinner } from 'react-bootstrap';
+import { CgNotes } from "react-icons/cg";
 
 function Signup() {
   let [name,setName]=useState('')
