@@ -39,7 +39,7 @@ function Signup() {
     <>
       <div className='container'  style={{height:'100vh'}}>
             <div className='d-flex justify-content-center align-items-center' style={{height:'100%'}}>
-                 <div className='container-fluid shadow p-4' style={{maxWidth:'400px'}}>
+                 <div className='container-fluid rounded-4 shadow p-4' style={{maxWidth:'400px' ,backgroundColor:'#fff'}}>
 
                   <Form>
                     
