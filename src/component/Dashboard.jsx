@@ -65,7 +65,7 @@ function Dashboard() {
                  <input
                         type="text"
                         className="form-control mt-3 mb-3"
-                        placeholder="Search..."
+                        placeholder="Search your title..."
                         value={searchQuery}
                         onChange={e => setSearchQuery(e.target.value)}
                  />
