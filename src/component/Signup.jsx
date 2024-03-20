@@ -40,7 +40,9 @@ function Signup() {
       <div className='container'  style={{height:'100vh'}}>
             <div className='d-flex justify-content-center align-items-center' style={{height:'100%'}}>
                  <div className='container-fluid rounded-4 shadow p-4' style={{maxWidth:'400px' ,backgroundColor:'#fff'}}>
-
+                    <div>
+                        <h3 className='text-center' style={{fontFamily:"sans-serif",color:"navy"}}> <CgNotes size={"24px"} className='mb-1 mx-2'/>Notes App</h3>
+                    </div>
                   <Form>
                     
                       <Form.Group className="mb-3" >
