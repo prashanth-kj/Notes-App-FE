@@ -58,7 +58,7 @@ function Signup() {
                           <Form.Control type="password"  className="form-control" placeholder="Password" onChange={(e)=>setPassword(e.target.value)}/>
                         </Form.Group>
 
-                        <Button variant="primary" className='mb-3 w-100' onClick={handleCreate}>
+                        <Button  className='mb-3 w-100' onClick={handleCreate} style={{backgroundColor:'navy' ,border:'1px solid navy'}}>
                           {
                             loading ? <Spinner animation='border' size='sm'/> : 'Submit'
                           }
