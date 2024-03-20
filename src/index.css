@@ -1,0 +1,19 @@
+body{
+     background-color: #E3E8F8 !important;
+}
+.navbar-collapse{
+      display: flex;
+      margin-top: 5px;
+    
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.dark,body{
+      background-color: navy !important;
+}
+
+.light,body{
+     background-color: #E3E8F8 !important;
+}
